@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.header__logo {
+  margin-left: 231px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+}
+
+.forma1 {
+  padding-left: 41px;
+}
+
+.button_copy {
+  padding-left: 859px;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1e4e6;
+  margin-bottom:65px;
+}
+
+.text {
+  padding-top: 290px;
+  padding-bottom: 373px;
+  padding-left: 10px;
+  color: #222;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.top .strip {
+  padding-top: 290px;
+  padding-bottom: 362px;
+}
+
+.top .text .big__text {
+  color: #222;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.top .text .pink {
+  color: #f16d7f;
+}
+
+.offer {
+  padding-bottom: 96px;
+}
+
+.offer .foto {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.products {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.products .big__text {
+  max-width: 190px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.products .small__text {
+  margin: 0 auto;
+  max-width: 340px;
+  color: #9f9f9f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 49px;
+}
+
+.blocks__items {
+  display: flex;
+}
+
+.blocks__items2 {
+    display: flex;
+}
+
+.block__items {
+  background-color: #f8f8f8;
+  margin: 30px;
+  min-width: 360px;
+}
+.aaa {
+  padding-left: 100px;
+  padding-bottom: 15px;
+  background-color: #f7e4e2;
+}
+.products .blocks__items .big__text2 {
+  padding-left: 16px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.products .blocks__items .small_text2 {
+  padding: 16px;
+  color: #5d5d5d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.products .blocks__items2 .big__text2 {
+    padding-left: 16px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .products .blocks__items2 .small_text2 {
+    padding: 16px;
+    color: #5d5d5d;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+.price {
+  color: #f16d7f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+.button_products {
+    text-wrap:nowrap;
+    margin: 0 auto;
+    margin-left: 500px;
+    margin-top: 63px;
+    margin-bottom: 60px;
+    padding: 15px 40px;
+    width: 212px;
+    color: #F26376;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-color: #F26376;
+    background-color: white;
+}
